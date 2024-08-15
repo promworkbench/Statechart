@@ -1,0 +1,9 @@
+Log;tests/src-test/testfiles/SWlog - JUnit - raw event log.xes.gz
+"# Traces";1,0000
+"# Events";946,0000
+"# Acts";182,0000
+Min |trace|;946,0000
+Mean |trace|;946,0000
+Max |trace|;946,0000
+Alpha miner;Heuristics miner;Fuzzy miner;Inductive miner - normal;Inductive miner - frequent;SC miner - flat naive;SC miner - nested naive;SC miner - nested recursive;SC miner - structured naive;SC miner - structured recursive
+24109,1290;23009,0932;2260,3989;21870,7760;12214,4514;14063,9166;10539,4136;5516,0629;6450,5293;4656,2288

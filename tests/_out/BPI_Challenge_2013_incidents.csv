@@ -1,0 +1,9 @@
+Log;tests/src-test/testfiles/BPI_Challenge_2013_incidents.xes.gz
+"# Traces";7554,0000
+"# Events";65533,0000
+"# Acts";13,0000
+Min |trace|;1,0000
+Mean |trace|;8,6753
+Max |trace|;123,0000
+Alpha miner;Heuristics miner;Fuzzy miner;Inductive miner - normal;Inductive miner - frequent;SC miner - flat naive;SC miner - structured naive;SC miner - structured recursive
+35626,7943;23099,1245;22790,6509;19590,5036;9278,8569;10733,7324;27879,0520;12787,9263
