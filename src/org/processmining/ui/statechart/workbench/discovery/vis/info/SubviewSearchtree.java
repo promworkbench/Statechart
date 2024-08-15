@@ -165,10 +165,10 @@ public class SubviewSearchtree implements ISubview {
         int i = 0;
 
         @SuppressWarnings("unchecked")
-        Enumeration<TreeNode> enu = searchTreeRoot
+        Enumeration<?> enu = searchTreeRoot
                 .depthFirstEnumeration();
         while (enu.hasMoreElements()) {
-            DefaultMutableTreeNode viewNode = enu.nextElement();
+            Object viewNode = enu.nextElement();
             if (viewNode instanceof EPTreeJTreeNode) {
                 IEPTreeNode treeNode = ((EPTreeJTreeNode) viewNode)
                         .getEPTreeNode();
@@ -295,10 +295,10 @@ public class SubviewSearchtree implements ISubview {
 
         // update expand/collapse
         @SuppressWarnings("unchecked")
-        Enumeration<TreeNode> enu = searchTreeRoot
+        Enumeration<?> enu = searchTreeRoot
                 .depthFirstEnumeration();
         while (enu.hasMoreElements()) {
-            DefaultMutableTreeNode viewNode = enu.nextElement();
+            Object viewNode = enu.nextElement();
             if (viewNode instanceof EPTreeJTreeNode) {
                 IEPTreeNode treeNode = ((EPTreeJTreeNode) viewNode)
                         .getEPTreeNode();
