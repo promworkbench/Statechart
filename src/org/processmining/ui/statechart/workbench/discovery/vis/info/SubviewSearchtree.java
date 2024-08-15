@@ -165,7 +165,7 @@ public class SubviewSearchtree implements ISubview {
         int i = 0;
 
         @SuppressWarnings("unchecked")
-        Enumeration<DefaultMutableTreeNode> enu = searchTreeRoot
+        Enumeration<TreeNode> enu = searchTreeRoot
                 .depthFirstEnumeration();
         while (enu.hasMoreElements()) {
             DefaultMutableTreeNode viewNode = enu.nextElement();
@@ -295,7 +295,7 @@ public class SubviewSearchtree implements ISubview {
 
         // update expand/collapse
         @SuppressWarnings("unchecked")
-        Enumeration<DefaultMutableTreeNode> enu = searchTreeRoot
+        Enumeration<TreeNode> enu = searchTreeRoot
                 .depthFirstEnumeration();
         while (enu.hasMoreElements()) {
             DefaultMutableTreeNode viewNode = enu.nextElement();
