@@ -1,0 +1,19 @@
+
+					<packages>
+						<package name="Statechart" version="6.14.6" os="all" url="Statechart/Statechart-6.14.6-all.zip" desc="Statechart" org="Eindhoven University of Technology" license="GPL" author="M. Leemans" auto="false" hasPlugins="true" logo="prom_subtitle_hat_300.png">
+				        <dependency org="prom" name="ProM-Plugins" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="BasicUtils" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="ApacheUtils" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="Widgets" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="GraphViz" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="Log" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="XESLite" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="Properties" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="ProcessTree" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="InductiveMiner" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="DataAwareReplayer" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="ProjectedRecallAndPrecision" rev="latest" changing="true" transitive="true" />
+
+						</package>
+					</packages>
+				
