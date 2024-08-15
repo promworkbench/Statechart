@@ -174,7 +174,7 @@ public class SubviewSearchtree implements ISubview {
                         .getEPTreeNode();
 
                 if (treeNode != null && selectedNodes.contains(treeNode.getId())) {
-                    selectionPaths[i] = new TreePath(viewNode.getPath());
+                    selectionPaths[i] = new TreePath(((EPTreeJTreeNode) viewNode).getPath());
                     i++;
                 }
             }
@@ -305,9 +305,9 @@ public class SubviewSearchtree implements ISubview {
 
                 if (treeNode != null
                         && treeNode.getNodeType() == EPNodeType.Collapsed) {
-                    searchTree.collapsePath(new TreePath(viewNode.getPath()));
+                    searchTree.collapsePath(new TreePath(((EPTreeJTreeNode) viewNode).getPath()));
                 } else {
-                    searchTree.expandPath(new TreePath(viewNode.getPath()));
+                    searchTree.expandPath(new TreePath(((EPTreeJTreeNode) viewNode).getPath()));
                 }
             }
         }
