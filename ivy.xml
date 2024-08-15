@@ -35,6 +35,12 @@
         
         <!-- Bug fix in Guava: https://stackoverflow.com/questions/19030954/cant-find-nullable-inside-javax-annotation -->
         <dependency conf="lib->default" org="com.google.code.findbugs" name="jsr305" rev="3.0.2" />
+ 
+ 		<!-- Added as these libraries have bene removed from the framework. -->
+ 	    <dependency conf="lib->default" org="org.slf4j" name="slf4j-api" rev="1.7.25" changing="false" transitive="false"/>	
+	    <dependency conf="lib->default" org="org.apache.logging.log4j" name="log4j-api" rev="2.8.1" changing="false" transitive="false"/>
+	    <dependency conf="lib->default" org="org.apache.logging.log4j" name="log4j-core" rev="2.8.1" changing="false" transitive="false"/>
+	    <dependency conf="lib->default" org="org.apache.logging.log4j" name="log4j-slf4j-impl" rev="2.8.1" changing="false" transitive="false"/>
         
      </dependencies>
 </ivy-module>
